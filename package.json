@@ -44,7 +44,7 @@
     "ink-docstrap": "^1.1.4",
     "isparta": "^4.0.0",
     "jsdoc": "^3.4.0",
-    "mocha-junit-reporter": "^1.13.0",
+    "mocha-junit-reporter": "^1.15.0",
     "run-sequence": "^1.1.5",
     "standard": "^8.6.0",
     "yargs": "^6.6.0"
