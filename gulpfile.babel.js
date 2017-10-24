@@ -40,6 +40,12 @@ gulp.task('build', ['clean'], () => {
     .pipe(gulp.dest('lib'))
 })
 
+gulp.task('dist', ['clean'], () => {
+  return gulp.src('src/**/*.js')
+    .pipe($.babel())
+    .pipe(gulp.dest('dist'))
+})
+
 gulp.task('lint', () => {
   return gulp.src('{src,test}/**/*.js')
     .pipe($.standard())
